@@ -20,7 +20,6 @@ class DList
 {
 private:
     Dnode* head;
-    static int num;
     
 public:
     DList();
