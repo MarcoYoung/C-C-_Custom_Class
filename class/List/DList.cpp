@@ -9,8 +9,6 @@
 using namespace std;
 #include "DList.hpp"
 
-int DList::num = 1;
-
 DList::DList()
 {
     head = new Dnode;
@@ -137,9 +135,7 @@ DList::~DList()
         del = t;
         t = t->next;
         delete del;
-        cout << num++ << endl;
     }
         
     delete head;
-    cout << num++ << endl;
 }
