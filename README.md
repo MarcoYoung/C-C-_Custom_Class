@@ -1,2 +1,2 @@
-# C-C-_Custom_Class
+# C/Cpp_Custom_Class
 Common-used functions and classes written by myself.
